@@ -1,8 +1,16 @@
 body{
-    background-color:#1B1F27;
-    font-family: Arial;
+  background-image: url(https://image.freepik.com/free-vector/blue-light-abstract-technology-background-computer-graphic-website-internet_115579-281.jpg);
+  font-family: Arial;
     overflow:hidden;
     margin-top: 7rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+      
+  }
+  
+  .url{
+    filter: opacity(.5);
   }
   
   .cat{
@@ -48,7 +56,7 @@ body{
     margin-left: 145px;
   }
   
-  input::placeholder{
+  input:placeholder{
     color: white;
     font-size:px;
     
