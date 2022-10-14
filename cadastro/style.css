@@ -23,7 +23,7 @@ body {
 }
 
 .card {
-  background-color: #353f35d7;
+  background-color: #13138070;
   padding: 15px;
   border-radius: 4%;
   box-shadow: 3px 3px 1px 0px #ffffff;
@@ -100,14 +100,16 @@ button{
 }
 
 button:hover{
-  background-color: #9c4600;
+  background-color: #9c460086;
   color: #fff;
 }
 
 .justify-center{
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
+  
 }
+
 
 .fa-eye{
   position: absolute;

@@ -9,10 +9,6 @@ body{
       
   }
   
-  .url{
-    filter: opacity(.5);
-  }
-  
   .cat{
     position: absolute;
     width:470px;
@@ -22,17 +18,17 @@ body{
 
   .area-login{
     display:flex;
-    height:88vh;
+    height:80vh;
     justify-content:center;
       
   }
   
   .login{
-    background-color:black;
-    width:355px;
+    background-color:#13138070;
+    width:350px;
     height:375px;
-    padding:35px;
-    
+    padding:22px;
+    border-radius: 20px;    
   }
 
   .login form{
@@ -54,17 +50,23 @@ body{
     width:80px;
     height:auto;
     margin-left: 145px;
+    clip-path: circle(50% at 50% 50%);
+
   }
   
+  input{
+    color: beige;
+  }
+
   input:placeholder{
     color: white;
-    font-size:px;
+    font-size:18px;
     
   }
   
  form [type="submit"] { 
     display: block;
-    background-color:#7784e9;
+    background-color:#000000bd;
     font-size:20px;
     text-transform:uppercase;
     font-weight: bold;
@@ -78,7 +80,7 @@ body{
   
   a{
     
-    color: #5568FE;
+    color: whitesmoke;  
     text-decoration:none;
     margin-left:10px;
   }
