@@ -1,0 +1,154 @@
+body {
+  background-color: #1B1F27;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.cat {
+  position: absolute;
+  top: 50%;
+  left: 75%;
+  transform: translate(-50%, -50%);
+  max-width: 33%;
+  height: auto;
+}
+
+.area-login-container {
+  position: relative;
+}
+
+.area-login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.login {
+  background-color: #2E3342;
+  width: 355px;
+  padding: 35px;
+  border-radius: 15px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.login form {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.login input {
+  margin-top: 10px;
+  background-color: #3B4B69;
+  border: none;
+  height: 45px;
+  border-radius: 25px;
+  padding: 5px;
+}
+
+.login img {
+  width: 80px;
+  height: auto;
+  margin: 0 auto 20px;
+  display: block;
+}
+
+input::placeholder {
+  color: white;
+}
+
+button {
+  display: block;
+  background-color: #7784E9;
+  font-size: 20px;
+  text-transform: uppercase;
+  font-weight: bold;
+  border: none;
+  border-radius: 35px;
+  cursor: pointer;
+  height: 45px;
+  margin-top: 10px;
+}
+
+button:hover {
+  background-color: #5568FE;
+}
+
+p {
+  color: white;
+  text-align: center;
+  margin-top: 20px;
+}
+
+a {
+  color: #5568FE;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+a:hover {
+  color: #3344BB;
+}
+
+.area-criar-conta, .questionario-login {
+  display: none;
+  background-color: rgba(0, 0, 0, 0.8);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.criar-conta, .questionario {
+  background-color: #2E3342;
+  width: 355px;
+  padding: 35px;
+  border-radius: 15px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.criar-conta h2, .questionario h2 {
+  color: white;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.criar-conta form, .questionario form {
+  display: flex;
+  flex-direction: column;
+}
+
+.criar-conta input, .questionario input {
+  margin-top: 10px;
+  background-color: #3B4B69;
+  border: none;
+  height: 45px;
+  border-radius: 25px;
+  padding: 5px;
+}
+
+.criar-conta button, .questionario button {
+  margin-top: 20px;
+  background-color: #7784E9;
+}
+
+.criar-conta p, .questionario p {
+  color: white;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.criar-conta a, .questionario a {
+  color: #5568FE;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.criar-conta a:hover, .questionario a:hover {
+  color: #3344BB;
+}

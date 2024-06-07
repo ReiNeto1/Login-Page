@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css"/>
+    <link rel="icon" type="image/png" href="iconcafe.png" />
+
+    <title>CyberCafé</title>
+</head>
+<body>
+    <main>
+        <img class="cat" src="octocat.png" alt="Cat Image">
+    </main>
+
+    <section class="area-login">
+        <div class="login">
+            <div>
+                <img src="Login.png" alt="Login Image">
+            </div>
+            <form id="loginForm">
+                <input type="text" name="username" placeholder="Nome de Usuário" autofocus>
+                <input type="password" name="password" placeholder="Senha">
+                <button type="submit">Entrar</button>
+            </form>
+            <p>Ainda não tem uma conta? <a href="#" id="criarConta">Criar conta</a></p>
+        </div>
+    </section>
+
+    <section class="area-criar-conta hidden">
+        <div class="criar-conta">
+            <h2>Criar Nova Conta</h2>
+            <form id="criarContaForm">
+                <input type="text" name="nome" placeholder="Seu nome">
+                <input type="email" name="email" placeholder="Seu e-mail">
+                <input type="password" name="senha" id="senha" placeholder="Sua senha">
+                <input type="password" name="confirmarSenha" placeholder="Confirmar senha">
+                <button type="submit">Criar Conta</button>
+            </form>
+            <p><a href="#" id="voltarLogin">Voltar para o Login</a></p>
+        </div>
+    </section>
+
+    <section class="questionario-login hidden">
+        <div class="questionario">
+            <h2>Questionário de Login</h2>
+            <!-- Adicione aqui os campos do questionário -->
+        </div>
+    </section>
+
+    <script src="main.js"></script>
+</body>
+</html>
